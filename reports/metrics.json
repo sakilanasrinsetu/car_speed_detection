@@ -1,0 +1,304 @@
+{
+  "input": "highway.mp4",
+  "model": "yolov8s.pt",
+  "fps": 25.0,
+  "total_frames": 1060,
+  "processed_frames": 1060,
+  "completion_percent": 100.0,
+  "frames_with_cars": 1060,
+  "car_frame_coverage_percent": 100.0,
+  "car_detections_across_frames": 9285,
+  "mean_detection_confidence_percent": 61.09803144881722,
+  "down_crossings": 29,
+  "up_crossings": 28,
+  "runtime_seconds": 93.41019846600102,
+  "assumed_line_distance_m": 10,
+  "speed_events": [
+    {
+      "track_id": 9,
+      "direction": "up",
+      "speed_kmh": 30.638297872340424
+    },
+    {
+      "track_id": 10,
+      "direction": "up",
+      "speed_kmh": 29.189189189189193
+    },
+    {
+      "track_id": 4,
+      "direction": "down",
+      "speed_kmh": 35.80901856763926
+    },
+    {
+      "track_id": 15,
+      "direction": "up",
+      "speed_kmh": 32.869565217391326
+    },
+    {
+      "track_id": 13,
+      "direction": "down",
+      "speed_kmh": 39.560439560439555
+    },
+    {
+      "track_id": 5,
+      "direction": "down",
+      "speed_kmh": 42.154566744730715
+    },
+    {
+      "track_id": 12,
+      "direction": "down",
+      "speed_kmh": 32.876712328767155
+    },
+    {
+      "track_id": 11,
+      "direction": "down",
+      "speed_kmh": 26.44281217208813
+    },
+    {
+      "track_id": 21,
+      "direction": "up",
+      "speed_kmh": 32.92682926829267
+    },
+    {
+      "track_id": 20,
+      "direction": "up",
+      "speed_kmh": 26.865671641791046
+    },
+    {
+      "track_id": 23,
+      "direction": "up",
+      "speed_kmh": 25.979381443298962
+    },
+    {
+      "track_id": 16,
+      "direction": "down",
+      "speed_kmh": 31.764705882352903
+    },
+    {
+      "track_id": 25,
+      "direction": "up",
+      "speed_kmh": 33.42175066312999
+    },
+    {
+      "track_id": 28,
+      "direction": "up",
+      "speed_kmh": 25.454545454545418
+    },
+    {
+      "track_id": 29,
+      "direction": "up",
+      "speed_kmh": 20.801232665639454
+    },
+    {
+      "track_id": 22,
+      "direction": "down",
+      "speed_kmh": 31.532846715328443
+    },
+    {
+      "track_id": 32,
+      "direction": "up",
+      "speed_kmh": 30.9278350515464
+    },
+    {
+      "track_id": 30,
+      "direction": "up",
+      "speed_kmh": 25.26315789473683
+    },
+    {
+      "track_id": 35,
+      "direction": "up",
+      "speed_kmh": 31.27413127413126
+    },
+    {
+      "track_id": 39,
+      "direction": "up",
+      "speed_kmh": 23.275862068965516
+    },
+    {
+      "track_id": 41,
+      "direction": "up",
+      "speed_kmh": 30.983606557377065
+    },
+    {
+      "track_id": 40,
+      "direction": "up",
+      "speed_kmh": 21.951219512195138
+    },
+    {
+      "track_id": 31,
+      "direction": "down",
+      "speed_kmh": 30.12552301255234
+    },
+    {
+      "track_id": 43,
+      "direction": "up",
+      "speed_kmh": 31.23966942148757
+    },
+    {
+      "track_id": 44,
+      "direction": "up",
+      "speed_kmh": 27.7992277992278
+    },
+    {
+      "track_id": 37,
+      "direction": "down",
+      "speed_kmh": 28.272251308900522
+    },
+    {
+      "track_id": 36,
+      "direction": "down",
+      "speed_kmh": 40.785498489425876
+    },
+    {
+      "track_id": 47,
+      "direction": "up",
+      "speed_kmh": 24.681684622918652
+    },
+    {
+      "track_id": 48,
+      "direction": "down",
+      "speed_kmh": 44.695259593679495
+    },
+    {
+      "track_id": 50,
+      "direction": "up",
+      "speed_kmh": 32.464929859719355
+    },
+    {
+      "track_id": 46,
+      "direction": "down",
+      "speed_kmh": 43.443282381335464
+    },
+    {
+      "track_id": 42,
+      "direction": "down",
+      "speed_kmh": 28.668941979522153
+    },
+    {
+      "track_id": 52,
+      "direction": "down",
+      "speed_kmh": 41.9999999999998
+    },
+    {
+      "track_id": 54,
+      "direction": "up",
+      "speed_kmh": 34.48275862068952
+    },
+    {
+      "track_id": 51,
+      "direction": "down",
+      "speed_kmh": 42.82315622521805
+    },
+    {
+      "track_id": 56,
+      "direction": "down",
+      "speed_kmh": 40.178571428571395
+    },
+    {
+      "track_id": 63,
+      "direction": "up",
+      "speed_kmh": 42.05607476635523
+    },
+    {
+      "track_id": 57,
+      "direction": "down",
+      "speed_kmh": 41.63701067615663
+    },
+    {
+      "track_id": 58,
+      "direction": "down",
+      "speed_kmh": 32.020330368488
+    },
+    {
+      "track_id": 61,
+      "direction": "down",
+      "speed_kmh": 39.51219512195136
+    },
+    {
+      "track_id": 66,
+      "direction": "down",
+      "speed_kmh": 33.007334963325164
+    },
+    {
+      "track_id": 71,
+      "direction": "down",
+      "speed_kmh": 41.203400915631136
+    },
+    {
+      "track_id": 75,
+      "direction": "up",
+      "speed_kmh": 38.50267379679164
+    },
+    {
+      "track_id": 74,
+      "direction": "up",
+      "speed_kmh": 30.000000000000018
+    },
+    {
+      "track_id": 79,
+      "direction": "up",
+      "speed_kmh": 29.793103448275804
+    },
+    {
+      "track_id": 83,
+      "direction": "up",
+      "speed_kmh": 36.585365853658736
+    },
+    {
+      "track_id": 76,
+      "direction": "down",
+      "speed_kmh": 38.79310344827568
+    },
+    {
+      "track_id": 73,
+      "direction": "down",
+      "speed_kmh": 37.0879120879121
+    },
+    {
+      "track_id": 80,
+      "direction": "down",
+      "speed_kmh": 46.13564668769662
+    },
+    {
+      "track_id": 86,
+      "direction": "down",
+      "speed_kmh": 45.97523219814251
+    },
+    {
+      "track_id": 84,
+      "direction": "down",
+      "speed_kmh": 33.40206185567017
+    },
+    {
+      "track_id": 88,
+      "direction": "up",
+      "speed_kmh": 30.50847457627138
+    },
+    {
+      "track_id": 87,
+      "direction": "down",
+      "speed_kmh": 32.49097472924196
+    },
+    {
+      "track_id": 96,
+      "direction": "up",
+      "speed_kmh": 29.03225806451625
+    },
+    {
+      "track_id": 90,
+      "direction": "down",
+      "speed_kmh": 45.115681233933
+    },
+    {
+      "track_id": 99,
+      "direction": "up",
+      "speed_kmh": 29.29475587703435
+    },
+    {
+      "track_id": 93,
+      "direction": "down",
+      "speed_kmh": 32.62839879154083
+    }
+  ],
+  "accuracy_percent": null
+}
