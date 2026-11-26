@@ -1,6 +1,6 @@
-# car_speed_detection
+# Car Speed Detection
 
-## Dataset download report
+## Dataset Download Report
 
 Executed successfully on November 26, 2026 (exit code 0):
 
@@ -19,34 +19,33 @@ Path to dataset files: /home/sakilans/Documents/Project/ML/car_speed_detection/.
 
 Verified downloaded file counts:
 
-| Directory | Files |
-| --- | ---: |
+| Directory    | Files |
+| ------------ | ----: |
 | images/train | 5,254 |
-| images/val | 1,470 |
+| images/val   | 1,470 |
 | labels/train | 5,254 |
-| labels/val | 1,470 |
+| labels/val   | 1,470 |
 
 KaggleHub printed an outdated-version warning for installed version `0.3.13`; execution still succeeded. This report covers the dataset download code only. The notebook execution is reported below.
-
 
 ## Notebook execution report
 
 Executed the repaired `main.ipynb` on November 26, 2026 using CPU inference, pretrained YOLOv8s, a 25% confidence threshold, and the complete `highway.mp4` (42.4 seconds at 25 FPS). The Kaggle dataset was not used for training or validation in this run.
 
-| Measurement | Result |
-| --- | ---: |
-| Frames processed | 1,060 / 1,060 |
-| Video processing completion | 100.00% |
-| Frames containing at least one detected car | 1,060 (100.00%) |
-| Mean car detection confidence | 61.10% |
-| Car detections across all frames | 9,285 |
-| Downward crossing events | 29 |
-| Upward crossing events | 28 |
-| Total crossing events | 57 |
-| Mean estimated crossing speed | 33.66 km/h |
-| Estimated crossing speed range | 20.80–46.14 km/h |
-| Processing runtime (excluding model loading) | 93.41 seconds |
-| Detection accuracy / precision / recall / mAP | Not measured |
+| Measurement                                   |            Result |
+| --------------------------------------------- | ----------------: |
+| Frames processed                              |     1,060 / 1,060 |
+| Video processing completion                   |           100.00% |
+| Frames containing at least one detected car   |   1,060 (100.00%) |
+| Mean car detection confidence                 |            61.10% |
+| Car detections across all frames              |             9,285 |
+| Downward crossing events                      |                29 |
+| Upward crossing events                        |                28 |
+| Total crossing events                         |                57 |
+| Mean estimated crossing speed                 |        33.66 km/h |
+| Estimated crossing speed range                | 20.80–46.14 km/h |
+| Processing runtime (excluding model loading)  |     93.41 seconds |
+| Detection accuracy / precision / recall / mAP |      Not measured |
 
 **Percentages are not accuracy scores.** Completion is processed frames divided by video frame count. Frame coverage is frames with a detected car divided by processed frames. Mean confidence averages YOLO confidence over all car detections, including repeated observations of the same car. Accuracy requires matching predictions against ground-truth annotations; this video has no supplied annotated evaluation.
 
